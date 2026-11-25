@@ -3,7 +3,7 @@
 **GitHub repository name:** `GramaMitra_AI_Powered_Smart_Civic_Complaint_Management_and_Public_Grievance_Redressal_System`
 ## Project Contributors
 
-1. **J-Divya-22** – [GitHub Profile](https://github.com/j-divya-22)
+1. **j-Divya-22** – [GitHub Profile](https://github.com/j-divya-22)
 2. **BHARATHI-2005** – [GitHub Profile](https://github.com/BHARATHI-2005)
 
 Both contributors collaborated on the development of GramaMitra, an AI-Powered Smart Civic Complaint Management and Public Grievance Redressal System.
