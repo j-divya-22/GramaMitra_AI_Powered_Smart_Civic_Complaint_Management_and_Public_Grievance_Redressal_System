@@ -1,0 +1,20 @@
+{
+  "name": "gramamitra",
+  "version": "1.0.0",
+  "description": "Gramamitra - Giving Every Citizen a Voice",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "npm --prefix=frontend run dev",
+    "dev:backend": "npm --prefix=backend run dev",
+    "dev:ai": "npm --prefix=ai run dev",
+    "install:all": "npm install && npm install --prefix=frontend && npm install --prefix=backend && npm install --prefix=ai",
+    "build:frontend": "npm --prefix=frontend run build",
+    "build:backend": "npm --prefix=backend run build",
+    "lint": "npm --prefix=frontend run lint && npm --prefix=backend run lint"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Gramamitra Team",
+  "license": "MIT"
+}

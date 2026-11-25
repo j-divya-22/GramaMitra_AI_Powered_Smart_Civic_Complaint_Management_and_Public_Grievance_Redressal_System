@@ -1,0 +1,13 @@
+{
+  "name": "@gramamitra/ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "python main.py",
+    "start": "python main.py",
+    "dev:cnn": "python main.py",
+    "start:cnn": "python main.py",
+    "dev:llm": ".venv-llm\\Scripts\\python.exe main.py",
+    "start:llm": ".venv-llm\\Scripts\\python.exe main.py"
+  }
+}

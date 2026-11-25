@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface-canvas text-neutral-text;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+    line-height: 1.5;
+  }
+
+  * {
+    @apply border-neutral-light;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', 'Noto Serif', serif;
+    @apply text-neutral-text;
+  }
+
+  button, input, textarea, select {
+    font-family: inherit;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-brand-ink text-surface-canvas px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:shadow-saffron hover:-translate-y-1 active:scale-95 disabled:opacity-60 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border-2 border-brand-ink text-brand-ink px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:bg-brand-ink hover:text-surface-canvas active:scale-95 disabled:opacity-60 disabled:cursor-not-allowed;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent text-neutral-text px-6 py-3 rounded-full font-medium transition-all duration-200 hover:bg-neutral-light active:scale-95;
+  }
+
+  .card {
+    @apply bg-surface-card rounded-premium shadow-card border border-neutral-light p-6 transition-all duration-300 hover:shadow-premium;
+  }
+
+  .pattern-bg {
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60"><path d="M30 0 C13.459 0 0 13.459 0 30 C0 46.541 13.459 60 30 60 C46.541 60 60 46.541 60 30 C60 13.459 46.541 0 30 0 Z M30 6 C24.477 6 19.523 10.954 19.523 16.477 C19.523 22 24.477 26.954 30 26.954 C35.523 26.954 40.477 22 40.477 16.477 C40.477 10.954 35.523 6 30 6 Z M13.106 13.106 C8.583 8.583 2 15.083 2 19.606 C2 24.129 8.583 30.712 13.106 26.189 C17.629 21.666 17.629 13.629 13.106 13.106 Z M46.894 46.894 C51.417 51.417 58 44.917 58 40.394 C58 35.871 51.417 29.288 46.894 33.811 C42.371 38.334 42.371 46.371 46.894 46.894 Z M46.894 13.106 C51.417 8.583 58 15.083 58 19.606 C58 24.129 51.417 30.712 46.894 26.189 C42.371 21.666 42.371 13.629 46.894 13.106 Z M13.106 46.894 C8.583 51.417 2 44.917 2 40.394 C2 35.871 8.583 29.288 13.106 33.811 C17.629 38.334 17.629 46.371 13.106 46.894 Z"/></svg>');
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60"><path d="M30 0 C13.459 0 0 13.459 0 30 C0 46.541 13.459 60 30 60 C46.541 60 60 46.541 60 30 C60 13.459 46.541 0 30 0 Z M30 6 C24.477 6 19.523 10.954 19.523 16.477 C19.523 22 24.477 26.954 30 26.954 C35.523 26.954 40.477 22 40.477 16.477 C40.477 10.954 35.523 6 30 6 Z M13.106 13.106 C8.583 8.583 2 15.083 2 19.606 C2 24.129 8.583 30.712 13.106 26.189 C17.629 21.666 17.629 13.629 13.106 13.106 Z M46.894 46.894 C51.417 51.417 58 44.917 58 40.394 C58 35.871 51.417 29.288 46.894 33.811 C42.371 38.334 42.371 46.371 46.894 46.894 Z M46.894 13.106 C51.417 8.583 58 15.083 58 19.606 C58 24.129 51.417 30.712 46.894 26.189 C42.371 21.666 42.371 13.629 46.894 13.106 Z M13.106 46.894 C8.583 51.417 2 44.917 2 40.394 C2 35.871 8.583 29.288 13.106 33.811 C17.629 38.334 17.629 46.371 13.106 46.894 Z"/></svg>');
+  }
+
+  .complaint-map {
+    height: 320px;
+    width: 100%;
+    background: #f1d2ae;
+  }
+
+  .regional-map {
+    height: 420px;
+    width: 100%;
+    background: #eef1f4;
+  }
+
+  .janvani-map-marker {
+    background: transparent;
+    border: 0;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

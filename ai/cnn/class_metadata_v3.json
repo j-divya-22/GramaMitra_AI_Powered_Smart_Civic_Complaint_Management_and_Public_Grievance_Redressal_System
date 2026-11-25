@@ -1,0 +1,37 @@
+{
+    "model_name": "civic_mobilenet_v3_v3_11",
+    "version": "v3",
+    "num_classes": 11,
+    "image_size": [
+        224,
+        224
+    ],
+    "class_names": [
+        "damaged_footpath",
+        "damaged_road_sign",
+        "electrical_hazard",
+        "infrastructure",
+        "normal",
+        "open_manhole_borewell",
+        "road_damage",
+        "roadside_garbage",
+        "streetlight_faults",
+        "vegetation",
+        "waterlogging"
+    ],
+    "class_indices": {
+        "damaged_footpath": 0,
+        "damaged_road_sign": 1,
+        "electrical_hazard": 2,
+        "infrastructure": 3,
+        "normal": 4,
+        "open_manhole_borewell": 5,
+        "road_damage": 6,
+        "roadside_garbage": 7,
+        "streetlight_faults": 8,
+        "vegetation": 9,
+        "waterlogging": 10
+    },
+    "test_accuracy": 0.9554973840713501,
+    "test_loss": 0.13555380702018738
+}

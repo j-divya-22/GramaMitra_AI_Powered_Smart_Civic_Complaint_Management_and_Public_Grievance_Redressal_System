@@ -1,0 +1,24 @@
+{
+    "class_names": [
+        "infrastructure",
+        "normal",
+        "road_damage",
+        "streetlight_faults",
+        "vegetation",
+        "waterlogging"
+    ],
+    "class_to_index": {
+        "infrastructure": 0,
+        "normal": 1,
+        "road_damage": 2,
+        "streetlight_faults": 3,
+        "vegetation": 4,
+        "waterlogging": 5
+    },
+    "image_size": [
+        224,
+        224
+    ],
+    "model_architecture": "MobileNetV3Large",
+    "dataset_version": "split_v2"
+}

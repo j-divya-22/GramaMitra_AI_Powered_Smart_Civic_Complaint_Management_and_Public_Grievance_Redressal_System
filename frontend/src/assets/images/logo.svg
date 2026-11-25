@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="saffron" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC173" />
+      <stop offset="100%" stop-color="#F29B38" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="88" fill="#1F4736" />
+  <circle cx="100" cy="100" r="80" fill="none" stroke="url(#saffron)" stroke-width="3" />
+  <path d="M58 84a42 42 0 0 1 42-42h8a42 42 0 0 1 42 42v14a42 42 0 0 1-42 42H91l-22 17v-25a42 42 0 0 1-11-34V84Z" fill="#FFF8EE" />
+  <path d="M76 83h48M76 101h34M76 119h22" fill="none" stroke="#1F4736" stroke-linecap="round" stroke-width="6" />
+  <circle cx="150" cy="145" r="18" fill="#2D66B2" />
+  <path d="M150 135v20M140 145h20M143 138l14 14m0-14-14 14" fill="none" stroke="#FFF8EE" stroke-linecap="round" stroke-width="2.5" />
+</svg>
