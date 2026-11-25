@@ -1,6 +1,12 @@
 # GramaMitra
 
 **GitHub repository name:** `GramaMitra_AI_Powered_Smart_Civic_Complaint_Management_and_Public_Grievance_Redressal_System`
+## Project Contributors
+
+1. **J-Divya-22** – [GitHub Profile](https://github.com/j-divya-22)
+2. **BHARATHI-2005** – [GitHub Profile](https://github.com/BHARATHI-2005)
+
+Both contributors collaborated on the development of GramaMitra, an AI-Powered Smart Civic Complaint Management and Public Grievance Redressal System.
 
 GramaMitra is a multilingual civic complaint platform. Citizens can prepare and track reports about local infrastructure and public-service issues. Administrators can manage complaints through the authenticated backend. The application combines a React web client, an Express API backed by MySQL, and Python AI endpoints for image classification and local language-model features.
 
